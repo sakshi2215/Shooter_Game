@@ -20,14 +20,14 @@ texture = ExtResource("1_2pdt0")
 position = Vector2(200, 560)
 scale = Vector2(0.5, 0.5)
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Boundary" type="Area2D" parent="."]
 position = Vector2(80, 176)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Boundary"]
 position = Vector2(120, 320)
 shape = SubResource("RectangleShape2D_ekq7p")
 
-[node name="HorizontalBarBlue" type="Sprite2D" parent="Area2D"]
+[node name="HorizontalBar" type="Sprite2D" parent="Boundary"]
 position = Vector2(120, 320)
 scale = Vector2(3.07692, -0.865001)
 texture = ExtResource("3_qra3s")
